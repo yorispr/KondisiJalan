@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AppKondisiJalan</string>
+    <string name="daftar">Belum punya akun? Silahkan </string>
+    <string name="login">Sudah punya akun? Silahkan </string>
+    <string name="title_activity_detail_laporan">DetailLaporanActivity</string>
+    <string name="title_activity_detail_broadcast">DetailBroadcastActivity</string>
+
+</resources>

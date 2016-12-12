@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="example.com.appkondisijalan.activity.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="30dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/inputUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="username ..."
+            android:padding="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/background_edit_text"/>
+        <EditText
+            android:id="@+id/inputPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="password ..."
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/background_edit_text"/>
+
+        <Button
+            android:id="@+id/btnMasuk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Masuk"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/background_button"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="@null"
+                android:textSize="14dp"
+                android:text="@string/daftar"
+                android:textColor="@color/colorBlack"/>
+            <Button
+                android:id="@+id/btnDaftar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Daftar!"
+                android:textStyle="bold"
+                android:background="@null"
+                android:gravity="center"
+                android:textColor="@color/colorPrimaryDark"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

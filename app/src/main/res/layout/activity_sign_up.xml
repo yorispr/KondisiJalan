@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sign_up"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="example.com.appkondisijalan.activity.SignUpActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <EditText
+            android:id="@+id/inputUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="username ..."
+            android:padding="8dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background_edit_text"/>
+
+        <EditText
+            android:id="@+id/inputPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="password ..."
+            android:inputType="textPassword"
+            android:padding="8dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background_edit_text"/>
+
+        <EditText
+            android:id="@+id/inputNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="nama ..."
+            android:inputType="textCapWords"
+            android:padding="8dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background_edit_text"/>
+
+        <EditText
+            android:id="@+id/inputAlamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="alamat ..."
+            android:inputType="textCapWords"
+            android:padding="8dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background_edit_text"/>
+
+        <EditText
+            android:id="@+id/inputNoTelp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="nomor telepon ..."
+            android:inputType="number"
+            android:padding="8dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background_edit_text"/>
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/background_button"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="@null"
+                android:textSize="14dp"
+                android:text="@string/login"
+                android:textColor="@color/colorBlack"/>
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="@null"
+                android:text="login!"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

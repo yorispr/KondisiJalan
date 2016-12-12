@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "200000378592",
+    "firebase_url": "https://appkondisijalan-a8325.firebaseio.com",
+    "project_id": "appkondisijalan-a8325",
+    "storage_bucket": "appkondisijalan-a8325.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:200000378592:android:a6d550e7056ce6f8",
+        "android_client_info": {
+          "package_name": "example.com.appkondisijalan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "200000378592-j8cokuhlohg8lalt3lom39e0ir0m7522.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "example.com.appkondisijalan",
+            "certificate_hash": "69A623F6AFC9C3C592C5D4D97D47273A258DD2E3"
+          }
+        },
+        {
+          "client_id": "200000378592-ueem1lq0fs7bd9qa24fc79ch8t5r09ue.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDE3NtPPCY6i94RqdH4aOrJfQ5du4Na8Ew"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "200000378592-ueem1lq0fs7bd9qa24fc79ch8t5r09ue.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

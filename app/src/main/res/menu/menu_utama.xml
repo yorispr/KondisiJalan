@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:apps="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_menu"
+        android:icon="@mipmap/ic_action_overflow"
+        android:title="Opsi"
+        apps:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/menuAdd"
+                android:title="Kondisi Jalan"
+                android:icon="@mipmap/ic_add_black_24dp"
+                apps:showAsAction="ifRoom"/>
+            <item
+                android:id="@+id/menuLogout"
+                android:title="Keluar Akun"
+                android:icon="@mipmap/ic_power_settings_new_black_24dp"
+                apps:showAsAction="ifRoom"/>
+
+            <item
+                android:id="@+id/menuLogin"
+                android:title="Masuk"
+                android:icon="@mipmap/ic_power_settings_new_black_24dp"
+                apps:showAsAction="ifRoom"/>
+        </menu>
+    </item>
+</menu>
